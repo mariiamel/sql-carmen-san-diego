@@ -17,13 +17,18 @@ We're going to use what we've learned already about searching with SQL commands,
 - From the command line, we're going to create a new database called `world` and populate it with the SQL found in `world.sql`
 
 ```sql
+--mac:
 psql -f starter-code/world.sql
+--win:
+psql -U postgres -f starter-code/world.sql
+
 ```
 
 Start psql and connect to the new database called world:
 
-```
-psql -d world
+```sql
+psql
+\c world
 ```
 
 Use the `\d` command to see what tables are available. You should see:
@@ -33,9 +38,9 @@ world=# \d
               List of relations
  Schema |      Name       | Type  |   Owner   
 --------+-----------------+-------+-----------
- public | city            | table | moonmayor
- public | country         | table | moonmayor
- public | countrylanguage | table | moonmayor
+ public | cities            | table | moonmayor
+ public | countries         | table | moonmayor
+ public | countrylanguages  | table | moonmayor
 ```
 
 You can write queries while you're in the `psql` command line interface. It's hard
