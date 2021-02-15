@@ -2,8 +2,6 @@
 
 ## Introduction
 
-> ***Note:*** _This can be a pair programming activity or done independently._
-
 #### Where In The World Is Carmen Sandiego?
 
 We're going to use what we've learned already about searching with SQL commands, and apply it to chase down and capture an elusive and World-renowned thief, Carmen Sandiego. Follow the clues, use the interweb - write down both the SQL commands / queries you used and your answers to the clues - and figure out where Carmen's headed, so we can catch her and bring her in.
@@ -12,9 +10,9 @@ We're going to use what we've learned already about searching with SQL commands,
 
 #### Requirements
 
-- Fork and clone
-- Use the clues.sql file as your "answer sheet"
-- From the command line, we're going to create a new database called `world` and populate it with the SQL found in `world.sql`
+- Fork and clone this repo and then cd into the directory
+- From the command line (zshell), we're going to create a new database called `world` and populate it with the SQL found in `./starter-code/world.sql`
+- Use the `./starter-code/clues.sql` file as your "answer sheet"
 
 ```sql
 --mac:
